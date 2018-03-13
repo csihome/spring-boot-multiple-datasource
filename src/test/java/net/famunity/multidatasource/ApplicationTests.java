@@ -15,7 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class KeyManagementApplicationTests extends AbstractEmbeddedCassandraTest {
+public class ApplicationTests extends AbstractEmbeddedCassandraTest {
 
 	@Autowired
 	private CredentialController credentialController;
