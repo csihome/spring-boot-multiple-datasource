@@ -16,5 +16,5 @@ docker-compose run -d
 
 ## Test with Newman
 ```bash
-newman run src/test/resources/newman/key-vault.postman_collection.json -e src/test/resources/newman/Local.postman_environment.json
+newman run src/test/resources/newman/test.postman_collection.json -e src/test/resources/newman/Local.postman_environment.json
 ```
